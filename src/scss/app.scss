@@ -28,8 +28,10 @@ html {
   flex-flow: column;
 }
 
-​@media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
+​@media (max-width: 600px)
+{
+    .hideForMobile
+    {
+        display: none;
+    }
 }
