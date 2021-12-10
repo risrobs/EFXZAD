@@ -28,10 +28,11 @@ html {
   flex-flow: column;
 }
 
-​@media (max-width: 600px)
-{
-    .hideForMobile
-    {
-        display: none;
-    }
-}
+.mobileShow {display: none;}
+
+  
+  @media only screen
+    
+    (max-device-width : 600px){ 
+      .mobileShow {display: inline;}
+  }
